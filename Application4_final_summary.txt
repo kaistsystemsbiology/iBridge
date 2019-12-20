@@ -1,0 +1,280 @@
+Target	Gene source	Negative metabolite	Positive metabolite	Negative score	Positive score	Reaction	Equation	Corr	Cov
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	2aobut_c	gly_c	-0.0336152486522	0.479780182098	GLYAT_reverse	2aobut_c + coa_c --> accoa_c + gly_c	-0.525636073003	-0.0475391405465
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fc1p_c	dhap_c	0.0	1.49099041395	FCLPA	fc1p_c --> dhap_c + lald_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pyr_c	flxr_c	-1.3675894519	0.0423956068373	POR5	coa_c + 2.0 flxso_c + pyr_c --> accoa_c + co2_c + 2.0 flxr_c + h_c	0.40618119723	0.00287478099383
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	pyr_c	acald_c	-1.3675894519	0.140447724662	PYRDC	h_c_ + pyr_c_ --> acald_c_ + co2_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pyr_c	alac_DASH_S_c	-1.3675894519	0.039848557218	ACLS	h_c + 2.0 pyr_c --> alac_DASH_S_c + co2_c	-0.999306028056	-0.45887294229
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	dha_c	f6p_c	-0.235167063352	1.88695844633	F6PA_reverse	dha_c + g3p_c --> f6p_c	0.67523136027	0.332576450416
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	dha_c	dhap_c	-0.235167063352	1.49099041395	DHAPT	dha_c + pep_c --> dhap_c + pyr_c	-0.67523136027	-0.332576450416
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	dha_c	dhap_c	-0.235167063352	1.49099041395	DHAK	atp_c_ + dha_c_ --> adp_c_ + dhap_c_ + h_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thf_c	gar_c	-0.349458253312	0.0590031352335	GARFT_reverse	fgam_c + h_c + thf_c --> 10fthf_c + gar_c	0.953659169868	0.28108888296
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	gar_c	-0.349458253312	0.0590031352335	FGFT	fgam_c_ + 3.0 h_c_ + thf_c_ --> gar_c_ + h2o_c_ + methf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thf_c	mlthf_c	-0.349458253312	0.479780182098	GHMT2r	ser_DASH_L_c + thf_c --> gly_c + h2o_c + mlthf_c	0.327795607329	0.0501065541984
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thf_c	mlthf_c	-0.349458253312	0.479780182098	GLYCL	gly_c + nad_c + thf_c --> co2_c + mlthf_c + nadh_c + nh4_c	-0.576080234691	-0.0804147431278
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	mlthf_c	-0.349458253312	0.479780182098	GCCb	alpro_c_ + thf_c_ --> dhlpro_c_ + mlthf_c_ + nh4_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	mlthf_c	-0.349458253312	0.479780182098	GCCb_1	gcvHalip_c_ + thf_c_ --> gcvHdhlip_c_ + mlthf_c_ + nh4_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	mlthf_c	-0.349458253312	0.479780182098	SARCOX2	o2_c_ + sarcs_c_ + thf_c_ --> gly_c_ + h2o2_c_ + mlthf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	mlthf_c	-0.349458253312	0.479780182098	GCC2	alpam_c_ + thf_c_ --> dhlam_c_ + mlthf_c_ + nh4_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	mlthf_c	-0.349458253312	0.479780182098	FldAct	fald_c_ + thf_c_ --> h2o_c_ + mlthf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	mlthf_c	-0.349458253312	0.479780182098	GLYCLb	samprot_c_ + thf_c_ --> dhlprot_c_ + mlthf_c_ + nh3_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thf_c	gly_c	-0.349458253312	0.479780182098	GHMT2r	ser_DASH_L_c + thf_c --> gly_c + h2o_c + mlthf_c	0.327795607329	0.0501065541984
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	gly_c	-0.349458253312	0.479780182098	SARCOX2	o2_c_ + sarcs_c_ + thf_c_ --> gly_c_ + h2o2_c_ + mlthf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	gly_c	-0.349458253312	0.479780182098	FTHFGFT	fgly_c_ + thf_c_ --> 5forthf_c_ + gly_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thf_c	aicar_c	-0.349458253312	0.199739613596	AICART_reverse	fprica_c + thf_c --> 10fthf_c + aicar_c	0.706805313401	0.250266233922
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thf_c	methf_c	-0.349458253312	0.357724785301	FGFT	fgam_c_ + 3.0 h_c_ + thf_c_ --> gar_c_ + h2o_c_ + methf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thf_c	10fthf_c	-0.349458253312	0.438121596167	FTHFLi	atp_c + for_c + thf_c --> 10fthf_c + adp_c + pi_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thf_c	10fthf_c	-0.349458253312	0.438121596167	AICART_reverse	fprica_c + thf_c --> 10fthf_c + aicar_c	0.706805313401	0.250266233922
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thf_c	10fthf_c	-0.349458253312	0.438121596167	GARFT_reverse	fgam_c + h_c + thf_c --> 10fthf_c + gar_c	0.953659169868	0.28108888296
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	fald_c	meoh_c	0.0	2.56557914764e-08	FALDM	2.0 fald_c_ + h2o_c_ --> for_c_ + h_c_ + meoh_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	fald_c	mlthf_c	0.0	0.479780182098	FldAct	fald_c_ + thf_c_ --> h2o_c_ + mlthf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	tyr_DASH_L_c	glu_DASH_L_c	-0.303098355583	2.02521600919	TYRTA	akg_c + tyr_DASH_L_c --> 34hpp_c + glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	man6p_c	f6p_c	0.0	1.88695844633	MAN6PI	man6p_c --> f6p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	etoh_c	acald_c	0.0	0.140447724662	ALCD2x	etoh_c + nad_c --> acald_c + h_c + nadh_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	etoh_c	acald_c	0.0	0.140447724662	ALCDkt	etoh_c_ + pqq_c_ --> acald_c_ + pqqh2_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	etoh_c	acald_c	0.0	0.140447724662	ALCD2y	etoh_c_ + nadp_c_ --> acald_c_ + h_c_ + nadph_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	etoh_c	acald_c	0.0	0.140447724662	ETOHMO	etoh_c_ + h_c_ + nadph_c_ + o2_c_ --> acald_c_ + 2.0 h2o_c_ + nadp_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	nicrnt_c	prpp_c	0.0	2.02814007359	NAMPRT	nicrnt_c_ + ppi_c_ --> h_c_ + nicnt_c_ + prpp_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	2dmmq8_c	dhap_c	0.0	1.49099041395	G3PD7	2dmmq8_c + glyc3p_c --> 2dmmql8_c + dhap_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	argsuc_c	fum_c	-3.87367288538e-33	0.329786142741	ARGSL	argsuc_c --> arg_DASH_L_c + fum_c	-5.49952802362e-17	-5.4782007307e-33
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	amet_c	acald_c	-0.214371758775	0.140447724662	CPC5MT	amet_c_ + copre5_c_ + h2o_c_ --> acald_c_ + ahcys_c_ + copre6_c_ + h_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	amet_c	amob_c	-0.214371758775	1.01924009622e-06	AMAOTr	8aonn_c + amet_c --> amob_c + dann_c	0.386472932558	2.20403402033e-07
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	amet_c	dann_c	-0.214371758775	1.01924009622e-06	AMAOTr	8aonn_c + amet_c --> amob_c + dann_c	0.386472932558	2.20403402033e-07
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	amet_c	flxso_c	-0.214371758775	0.00203277713516	DHXFUTC	2.0 amet_c_ + dhxfut_c_ + 2.0 flxr_c_ --> cdhxfut_c_ + 2.0 dad_5_c_ + 2.0 flxso_c_ + 2.0 met__L_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	amet_c	flxso_c	-0.214371758775	0.00203277713516	CDGS1	amet_c_ + cph4_c_ + 2.0 flxr_c_ + 2.0 h_c_ --> cdg_c_ + dad_5_c_ + 2.0 flxso_c_ + met__L_c_ + nh4_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	amet_c	flxso_c	-0.214371758775	0.00203277713516	DPLPTAT	amet_c_ + dptne_c_ + 2.0 flxr_c_ + h_c_ --> ahop_c_ + 2.0 flxso_c_ + met__L_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pep_c	2dda7p_c	-3.34970477353	1.90778977278	DDPA	e4p_c + h2o_c + pep_c --> 2dda7p_c + pi_c	0.999996181291	2.69802217082
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	pep_c	2dda7p_c	-3.34970477353	1.90778977278	DDPA_1	e4p_c_ + h2o_c_ + pep_c_ --> 2dda7p_c_ + h_c_ + pi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pep_c	f6p_c	-3.34970477353	1.88695844633	FRUpts2pp	fru_p + pep_c --> f6p_c + pyr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pep_c	dhap_c	-3.34970477353	1.49099041395	DHAPT	dha_c + pep_c --> dhap_c + pyr_c	-0.67523136027	-0.332576450416
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pep_c	3psme_c	-3.34970477353	1.90778977278	PSCVT	pep_c + skm5p_c --> 3psme_c + pi_c	0.999996181291	2.69802217082
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	pep_c	3psme_c	-3.34970477353	1.90778977278	PSCVT_1	pep_c_ + skm5p_c_ --> 3psme_c_ + h_c_ + pi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	hom_DASH_L_c	aspsa_c	-0.2439824532	0.369004624964	HSDy	hom_DASH_L_c + nadp_c --> aspsa_c + h_c + nadph_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	5mthf_c	mlthf_c	-0.057288330421	0.479780182098	DHPR2	5mthf_c_ + dhbpt_c_ --> h_c_ + mlthf_c_ + thbpt_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	adprib_c	r5p_c	0.0	1.43103376505	ADPRDP	adprib_c + h2o_c --> amp_c + 2.0 h_c + r5p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	adprib_c	r5p_c	0.0	1.43103376505	ADPRDP_1	adprib_c_ + h2o_c_ --> amp_c_ + r5p_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	acac_c	aacoa_c	0.0	0.13207966378	ACACCT	acac_c + accoa_c --> aacoa_c + ac_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	acac_c	aacoa_c	0.0	0.13207966378	OCOAT1	acac_c_ + succoa_c_ --> aacoa_c_ + succ_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	acac_c	aacoa_c	0.0	0.13207966378	AACOAT	acac_c_ + atp_c_ + coa_c_ --> aacoa_c_ + amp_c_ + ppi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	acac_c	aacoa_c	0.0	0.13207966378	BUTCT2	acac_c_ + btcoa_c_ --> aacoa_c_ + but_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	4h2opntn_c	acald_c	0.0	0.140447724662	HOPNTAL	4h2opntn_c --> acald_c + pyr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	glyald_c	g3p_c	0.0	3.09463819723	TRIOK	atp_c_ + glyald_c_ --> adp_c_ + g3p_c_ + h_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	3oddcoa_c	3hddcoa_c	-0.0457461621896	0.0704910088685	HACD5	3oddcoa_c + h_c + nadh_c --> 3hddcoa_c + nad_c	-0.40618119723	-0.064694842995
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	LalaDgluMdap_c	26dap_DASH_M_c	-0.00158110119289	0.153110083755	LADGMDH	LalaDgluMdap_c + h2o_c --> 26dap_DASH_M_c + LalaDglu_c	-0.519784136537	-0.00223601475047
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malt_c	glc_DASH_D_c	0.0	4.23751983114	AMALT1	malt_c + malttr_c --> glc_DASH_D_c + maltttr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malt_c	glc_DASH_D_c	0.0	4.23751983114	AMALT2	malt_c + maltttr_c --> glc_DASH_D_c + maltpt_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malt_c	glc_DASH_D_c	0.0	4.23751983114	AMALT3	malt_c + maltpt_c --> glc_DASH_D_c + malthx_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malt_c	glc_DASH_D_c	0.0	4.23751983114	AMALT4	malt_c + malthx_c --> glc_DASH_D_c + malthp_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	gg4abut_c	glu_DASH_L_c	0.0	2.02521600919	GGGABAH	gg4abut_c + h2o_c --> 4abut_c + glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malttr_c	glc_DASH_D_c	0.0	4.23751983114	AMALT1	malt_c + malttr_c --> glc_DASH_D_c + maltttr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malttr_c	glc_DASH_D_c	0.0	4.23751983114	MLTG1	h2o_c + malttr_c --> glc_DASH_D_c + malt_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	glyc3p_c	dhap_c	-0.0446234137506	1.49099041395	G3PD2	glyc3p_c + nadp_c --> dhap_c + h_c + nadph_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	glyc3p_c	dhap_c	-0.0446234137506	1.49099041395	G3PD5	glyc3p_c + q8_c --> dhap_c + q8h2_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	glyc3p_c	dhap_c	-0.0446234137506	1.49099041395	G3PD6	glyc3p_c + mqn8_c --> dhap_c + mql8_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	glyc3p_c	dhap_c	-0.0446234137506	1.49099041395	G3PD7	2dmmq8_c + glyc3p_c --> 2dmmql8_c + dhap_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	glyc3p_c	dhap_c	-0.0446234137506	1.49099041395	G3PD4	glyc3p_c_ + mqn7_c_ --> dhap_c_ + mql7_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	glyc3p_c	dhap_c	-0.0446234137506	1.49099041395	G3PD	fad_c_ + glyc3p_c_ --> dhap_c_ + fadh2_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	succoa_c	5aop_c	-0.291889816737	0.00132421108342	ALAS	gly_c_ + h_c_ + succoa_c_ --> 5aop_c_ + co2_c_ + coa_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	succoa_c	aacoa_c	-0.291889816737	0.13207966378	OCOAT1	acac_c_ + succoa_c_ --> aacoa_c_ + succ_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	2ddg6p_c	g3p_c	0.0	3.09463819723	EDA	2ddg6p_c --> g3p_c + pyr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	1pyr5c_c	glu_DASH_L_c	-0.0810510893512	2.02521600919	P5CD	1pyr5c_c + 2.0 h2o_c + nad_c --> glu_DASH_L_c + h_c + nadh_c	-0.386472932558	-0.0243606370183
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pimACP_c	8aonn_c	-9.29092498975e-07	1.55848740174e-07	AOXSr2	ala_DASH_L_c + pimACP_c --> 8aonn_c + ACP_c + co2_c	-0.932961173781	-1.31393521275e-06
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	sbt6p_c	f6p_c	0.0	1.88695844633	SBTPD	nad_c + sbt6p_c --> f6p_c + h_c + nadh_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	progly_c	gly_c	0.0	0.479780182098	AMPTASEPG	h2o_c + progly_c --> gly_c + pro_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	for_c	10fthf_c	-0.0010726857127	0.438121596167	FTHFLi	atp_c + for_c + thf_c --> 10fthf_c + adp_c + pi_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	25aics_c	fum_c	-1.01641808867e-05	0.329786142741	ADSL2r	25aics_c --> aicar_c + fum_c	-0.461394445634	-1.43743224604e-05
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	25aics_c	aicar_c	-1.01641808867e-05	0.199739613596	ADSL2r	25aics_c --> aicar_c + fum_c	-0.461394445634	-1.43743224604e-05
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	sucglu_c	glu_DASH_L_c	-0.00140743085327	2.02521600919	SGDS	h2o_c + sucglu_c --> glu_DASH_L_c + succ_c	-0.0580258853186	-0.00199040780079
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	dcacoa_c	ddcacoa_c	-0.0863335015909	0.13207966378	FAS120COA	dcacoa_c_ + 3.0 h_c_ + malcoa_c_ + 2.0 nadph_c_ --> co2_c_ + coa_c_ + ddcacoa_c_ + h2o_c_ + 2.0 nadp_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	dcacoa_c	dc2coa_c	-0.0863335015909	0.13207966378	ACOAD4f	dcacoa_c + fad_c --> dc2coa_c + fadh2_c	0.40618119723	0.064694842995
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	dcacoa_c	dc2coa_c	-0.0863335015909	0.13207966378	ACOAD4	dcacoa_c_ + nad_c_ --> dc2coa_c_ + h_c_ + nadh_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	allul6p_c	f6p_c	0.0	1.88695844633	ALLULPE	allul6p_c --> f6p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	f1p_c	dhap_c	0.0	1.49099041395	FBA2	f1p_c_ --> dhap_c_ + glyald_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	myrsACP_c	tdcoa_c	0.0	0.0126735940835	TDACPT	coa_c_ + myrsACP_c_ --> ACP_c_ + tdcoa_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thmpp_c	g3p_c	-0.303039078739	3.09463819723	X5TDG	3.0 h_c_ + thmpp_c_ + xu5p__D_c_ --> dhettp_c_ + g3p_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	thmpp_c	r5p_c	-0.303039078739	1.43103376505	S7PTDG	3.0 h_c_ + s7p_c_ + thmpp_c_ --> dhettp_c_ + r5p_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thr_DASH_L_c	acald_c	-0.328040445633	0.140447724662	THRAi	thr_DASH_L_c --> acald_c + gly_c	-0.0862949993568	-0.00862847014428
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	thr_DASH_L_c	gly_c	-0.328040445633	0.479780182098	THRAi	thr_DASH_L_c --> acald_c + gly_c	-0.0862949993568	-0.00862847014428
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	um4p_c	ala_DASH_D_c	0.0	0.0136216244034	UM4PCP	h2o_c + um4p_c --> ala_DASH_D_c + ugmd_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	acglc_DASH_D_c	glc_DASH_D_c	0.0	4.23751983114	GLCATr_reverse	acglc_DASH_D_c + coa_c --> accoa_c + glc_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pram_c	gar_c	-0.140829405736	0.0590031352335	PRAGSr	atp_c + gly_c + pram_c --> adp_c + gar_c + h_c + pi_c	-0.699890660345	-0.199162855573
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	pram_c	gar_c	-0.140829405736	0.0590031352335	PPRGL	atp_c_ + gly_c_ + pram_c_ --> adp_c_ + gar_c_ + 2.0 h_c_ + pi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ru5p_DASH_L_c	xu5p_DASH_D_c	0.0	1.33428111322	RBP4E	ru5p_DASH_L_c --> xu5p_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	26dap_DASH_LL_c	26dap_DASH_M_c	0.0	0.153110083755	DAPE	26dap_DASH_LL_c --> 26dap_DASH_M_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	2dr5p_c	g3p_c	0.0	3.09463819723	DRPA	2dr5p_c --> acald_c + g3p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	2dr5p_c	acald_c	0.0	0.140447724662	DRPA	2dr5p_c --> acald_c + g3p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	sl26da_c	glu_DASH_L_c	-0.153110083755	2.02521600919	SDPTA	akg_c + sl26da_c --> glu_DASH_L_c + sl2a6o_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	tagdp_DASH_D_c	g3p_c	0.0	3.09463819723	TGBPA	tagdp_DASH_D_c --> dhap_c + g3p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	tagdp_DASH_D_c	dhap_c	0.0	1.49099041395	TGBPA	tagdp_DASH_D_c --> dhap_c + g3p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	tre6p_c	glc_DASH_D_c	0.0	4.23751983114	TRE6PH	h2o_c + tre6p_c --> g6p_c + glc_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ichor_c	chor_c	0.0	2.02814007359	ICHORS_reverse	ichor_c --> chor_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	udpLa4n_c	glu_DASH_L_c	0.0	2.02521600919	UDPKAAT_reverse	akg_c + udpLa4n_c --> glu_DASH_L_c + udpLa4o_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	ttdca_c	tdcoa_c	0.0	0.0126735940835	FACOAL140	atp_c_ + coa_c_ + ttdca_c_ --> amp_c_ + ppi_c_ + tdcoa_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	oaa_c	mal_DASH_L_c	-0.888254714998	0.17634113162	MDH_reverse	h_c + nadh_c + oaa_c --> mal_DASH_L_c + nad_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	oaa_c	mal_DASH_L_c	-0.888254714998	0.17634113162	MOX_reverse	h2o2_c + oaa_c --> mal_DASH_L_c + o2_c	-0.331303111349	-0.0330731730259
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	oaa_c	asp_DASH_L_c	-0.888254714998	0.60243038285	ASPTA_reverse	glu_DASH_L_c + oaa_c --> akg_c + asp_DASH_L_c	-0.604455680391	-0.522009364487
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	athr_DASH_L_c	acald_c	0.0	0.140447724662	THRA2i	athr_DASH_L_c --> acald_c + gly_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	athr_DASH_L_c	gly_c	0.0	0.479780182098	THRA2i	athr_DASH_L_c --> acald_c + gly_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	maltpt_c	glc_DASH_D_c	0.0	4.23751983114	AMALT3	malt_c + maltpt_c --> glc_DASH_D_c + malthx_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	maltpt_c	glc_DASH_D_c	0.0	4.23751983114	MLTG3	h2o_c + maltpt_c --> glc_DASH_D_c + maltttr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	acACP_c	malACP_c	-0.0051311020757	0.0340160697094	MACPT	acACP_c_ + malon_c_ --> ac_c_ + malACP_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	LalaDgluMdapDala_c	ala_DASH_D_c	0.0	0.0136216244034	4PCP	LalaDgluMdapDala_c + h2o_c --> LalaDgluMdap_c + ala_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	quin_c	3dhq_c	0.0	1.90778977278	QUINDH	nad_c + quin_c --> 3dhq_c + 2.0 h_c + nadh_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	quin_c	3dhq_c	0.0	1.90778977278	QUIDH	pqq_c_ + quin_c_ --> 3dhq_c_ + pqqh2_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	quin_c	3dhq_c	0.0	1.90778977278	QUINDHyi	nadp_c_ + quin_c_ --> 3dhq_c_ + 2.0 h_c_ + nadph_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	quin_c	3dhq_c	0.0	1.90778977278	QUIDHy	nadp_c_ + quin_c_ --> 3dhq_c_ + h_c_ + nadph_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	melib_c	glc_DASH_D_c	0.0	4.23751983114	GALS3	h2o_c + melib_c --> gal_c + glc_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	td2coa_c	tdcoa_c	-0.103196422929	0.0126735940835	ACOAD6f_reverse	fadh2_c + td2coa_c --> fad_c + tdcoa_c	-0.999306028056	-0.145941780895
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	td2coa_c	3htdcoa_c	-0.103196422929	0.115870017013	ECOAH6_reverse	h2o_c + td2coa_c --> 3htdcoa_c	0.999306028056	0.145941780895
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	3omrsACP_c	3hmrsACP_c	-0.0100037915203	0.0154150058283	3OAR140	3omrsACP_c + h_c + nadph_c --> 3hmrsACP_c + nadp_c	-0.40618119723	-0.0141474976431
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	acorn_c	glu_DASH_L_c	-0.132362816556	2.02521600919	ACOTA	acorn_c + akg_c --> acg5sa_c + glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	ddcaACP_c	3hmrsACP_c	-0.0288832408509	0.0154150058283	KAS16	ddcaACP_c_ + 2.0 h_c_ + malACP_c_ + nadph_c_ --> 3hmrsACP_c_ + ACP_c_ + co2_c_ + nadp_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	5fthf_c	methf_c	0.0	0.357724785301	FOMETRi	5fthf_c + h_c --> h2o_c + methf_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	5fthf_c	methf_c	0.0	0.357724785301	FTHFCL	5fthf_c_ + atp_c_ --> adp_c_ + methf_c_ + pi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	5fthf_c	methf_c	0.0	0.357724785301	MTAM_1	5fthf_c_ + 2.0 h_c_ --> h2o_c_ + methf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	5fthf_c	10fthf_c	0.0	0.438121596167	FTHFI	5fthf_c_ + atp_c_ + h2o_c_ --> 10fthf_c_ + adp_c_ + h_c_ + pi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	5fthf_c	10fthf_c	0.0	0.438121596167	FTHFI_1	5fthf_c_ + atp_c_ + h2o_c_ --> 10fthf_c_ + adp_c_ + pi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	hkntd_c	fum_c	0.0	0.329786142741	HKNTDH	h2o_c + hkntd_c --> fum_c + h_c + op4en_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	hkntd_c	fum_c	0.0	0.329786142741	HKNTDH_1	h2o_c_ + hkntd_c_ --> fum_c_ + 2.0 h_c_ + op4en_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	prlp_c	glu_DASH_L_c	-0.0351606248939	2.02521600919	IG3PS	gln_DASH_L_c + prlp_c --> aicar_c + eig3p_c + glu_DASH_L_c + h_c	-0.999306028056	-0.0497246325864
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	prlp_c	prfp_c	-0.0351606248939	9.68418221348e-34	PRMICI_reverse	prlp_c --> prfp_c	0.999306028056	0.0497246325864
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	prlp_c	aicar_c	-0.0351606248939	0.199739613596	IG3PS	gln_DASH_L_c + prlp_c --> aicar_c + eig3p_c + glu_DASH_L_c + h_c	-0.999306028056	-0.0497246325864
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	prlp_c	aicar_c	-0.0351606248939	0.199739613596	IG3PS_1	gln__L_c_ + prlp_c_ --> aicar_c_ + eig3p_c_ + glu__L_c_ + 2.0 h_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	ddca_c	ddcacoa_c	-0.0288832408509	0.13207966378	HMR_0188	atp_c_ + coa_c_ + ddca_c_ --> amp_c_ + ddcacoa_c_ + ppi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ara5p_c	ru5p_DASH_D_c	-0.0144416204254	1.45009628783	A5PISO_reverse	ara5p_c --> ru5p_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	trp_DASH_L_c	indole_c	-0.305146210813	2.04923652275	TRPAS2	h2o_c + trp_DASH_L_c --> indole_c + nh4_c + pyr_c	-0.461394445634	-0.0036640341328
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	cgly_c	gly_c	0.0	0.479780182098	AMPTASECG	cgly_c + h2o_c --> cys_DASH_L_c + gly_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	phthr_c	glu_DASH_L_c	-8.27631927137e-05	2.02521600919	OHPBAT_reverse	akg_c + phthr_c --> glu_DASH_L_c + ohpb_c	0.999306028056	0.000117044829601
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	phthr_c	ohpb_c	-8.27631927137e-05	8.27631927137e-05	OHPBAT_reverse	akg_c + phthr_c --> glu_DASH_L_c + ohpb_c	0.999306028056	0.000117044829601
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	glu1sa_c	5aop_c	0.0	0.00132421108342	G1SAT	glu1sa_c --> 5aop_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	tre_c	glc_DASH_D_c	0.0	4.23751983114	TREH	h2o_c + tre_c --> 2.0 glc_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	phe_DASH_L_c	glu_DASH_L_c	-0.371135393336	2.02521600919	PHETA1	akg_c + phe_DASH_L_c --> glu_DASH_L_c + phpyr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ser_DASH_L_c	g3p_c	-0.301077363278	3.09463819723	TRPS1	3ig3p_c + ser_DASH_L_c --> g3p_c + h2o_c + trp_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ser_DASH_L_c	mlthf_c	-0.301077363278	0.479780182098	GHMT2r	ser_DASH_L_c + thf_c --> gly_c + h2o_c + mlthf_c	0.327795607329	0.0501065541984
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ser_DASH_L_c	gly_c	-0.301077363278	0.479780182098	GHMT2r	ser_DASH_L_c + thf_c --> gly_c + h2o_c + mlthf_c	0.327795607329	0.0501065541984
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	r15bp_c	prpp_c	-0.00987869004548	2.02814007359	R15BPK	atp_c + r15bp_c --> adp_c + prpp_c	-0.443352805358	-0.0139705774408
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	asn_DASH_L_c	asp_DASH_L_c	-0.371135393336	0.60243038285	ASNN	asn_DASH_L_c + h2o_c --> asp_DASH_L_c + nh4_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fprica_c	aicar_c	-0.23491040267	0.199739613596	AICART_reverse	fprica_c + thf_c --> 10fthf_c + aicar_c	0.706805313401	0.250266233922
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fprica_c	10fthf_c	-0.23491040267	0.438121596167	AICART_reverse	fprica_c + thf_c --> 10fthf_c + aicar_c	0.706805313401	0.250266233922
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ile_DASH_L_c	glu_DASH_L_c	-0.313842912788	2.02521600919	ILETA	akg_c + ile_DASH_L_c --> 3mop_c + glu_DASH_L_c	-0.461394445634	-0.018727163812
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malthx_c	glc_DASH_D_c	0.0	4.23751983114	AMALT4	malt_c + malthx_c --> glc_DASH_D_c + malthp_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malthx_c	glc_DASH_D_c	0.0	4.23751983114	MLTG4	h2o_c + malthx_c --> glc_DASH_D_c + maltpt_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	accoa_c	acald_c	-0.680844522078	0.140447724662	ACALD_reverse	accoa_c + h_c + nadh_c --> acald_c + coa_c + nad_c	0.585176216057	0.207251547165
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	accoa_c	3otdcoa_c	-0.680844522078	0.094607472723	ACACT6r	accoa_c + ddcacoa_c --> 3otdcoa_c + coa_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	accoa_c	3otdcoa_c	-0.680844522078	0.094607472723	ACACT6r_1	accoa_c_ + ddcoa_c_ --> 3otdcoa_c_ + coa_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	accoa_c	flxso_c	-0.680844522078	0.00203277713516	POR5_reverse	accoa_c + co2_c + 2.0 flxr_c + h_c --> coa_c + 2.0 flxso_c + pyr_c	0.993079144852	0.0599564421744
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	accoa_c	3ohdcoa_c	-0.680844522078	0.115870017013	ACACT7r	accoa_c + tdcoa_c --> 3ohdcoa_c + coa_c	0.461394445634	0.0179231686369
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	accoa_c	mal_DASH_L_c	-0.680844522078	0.17634113162	MALS	accoa_c + glx_c + h2o_c --> coa_c + h_c + mal_DASH_L_c	-0.725908042834	-0.00034274162412
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	accoa_c	aacoa_c	-0.680844522078	0.13207966378	ACACCT	acac_c + accoa_c --> aacoa_c + ac_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	accoa_c	aacoa_c	-0.680844522078	0.13207966378	ACACT1r	2.0 accoa_c --> aacoa_c + coa_c	5.49952802362e-17	5.4782007307e-33
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	orot5p_c	prpp_c	-0.122769732438	2.02814007359	ORPT	orot5p_c + ppi_c --> orot_c + prpp_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	3odcoa_c	3hdcoa_c	-0.0457461621896	0.0704910088685	HACD4	3odcoa_c + h_c + nadh_c --> 3hdcoa_c + nad_c	-0.40618119723	-0.064694842995
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	mqn8_c	dhap_c	0.0	1.49099041395	G3PD6	glyc3p_c + mqn8_c --> dhap_c + mql8_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	aacald_c	gly_c	0.0	0.479780182098	ALDD31	aacald_c_ + h2o_c_ + nad_c_ --> gly_c_ + 2.0 h_c_ + nadh_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	rml1p_c	dhap_c	0.0	1.49099041395	RMPA	rml1p_c --> dhap_c + lald_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fgam_c	glu_DASH_L_c	-0.19983254097	2.02521600919	PRFGS	atp_c + fgam_c + gln_DASH_L_c + h2o_c --> adp_c + fpram_c + glu_DASH_L_c + h_c + pi_c	-0.953872087985	-0.282605889643
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fgam_c	gar_c	-0.19983254097	0.0590031352335	GARFT_reverse	fgam_c + h_c + thf_c --> 10fthf_c + gar_c	0.953659169868	0.28108888296
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	fgam_c	gar_c	-0.19983254097	0.0590031352335	FGFT	fgam_c_ + 3.0 h_c_ + thf_c_ --> gar_c_ + h2o_c_ + methf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	fgam_c	methf_c	-0.19983254097	0.357724785301	FGFT	fgam_c_ + 3.0 h_c_ + thf_c_ --> gar_c_ + h2o_c_ + methf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fgam_c	10fthf_c	-0.19983254097	0.438121596167	GARFT_reverse	fgam_c + h_c + thf_c --> 10fthf_c + gar_c	0.953659169868	0.28108888296
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	r1p_c	r5p_c	-0.00830635325859	1.43103376505	PPM	r1p_c --> r5p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	6pgc_c	ru5p_DASH_D_c	0.0	1.45009628783	GND	6pgc_c + nadp_c --> co2_c + nadph_c + ru5p_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malthp_c	glc_DASH_D_c	0.0	4.23751983114	MLTG5	h2o_c + malthp_c --> glc_DASH_D_c + malthx_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	lcts_c	glc_DASH_D_c	0.0	4.23751983114	LACZ	h2o_c + lcts_c --> gal_c + glc_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	3ohcoa_c	3hhcoa_c	-0.0457461621896	0.0704910088685	HACD2	3ohcoa_c + h_c + nadh_c --> 3hhcoa_c + nad_c	-0.40618119723	-0.064694842995
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	sucorn_c	glu_DASH_L_c	-0.00140743085327	2.02521600919	SOTA	akg_c + sucorn_c --> glu_DASH_L_c + sucgsa_c	-0.0580258853186	-0.00199040780079
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	malcoa_c	malACP_c	-7.58600848779e-07	0.0340160697094	MCOATA	ACP_c + malcoa_c --> coa_c + malACP_c	-5.49952802362e-17	-1.36955018268e-33
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	malcoa_c	tdcoa_c	-7.58600848779e-07	0.0126735940835	FAS140COA	ddcacoa_c_ + 3.0 h_c_ + malcoa_c_ + 2.0 nadph_c_ --> co2_c_ + coa_c_ + h2o_c_ + 2.0 nadp_c_ + tdcoa_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	malcoa_c	ddcacoa_c	-7.58600848779e-07	0.13207966378	FAS120COA	dcacoa_c_ + 3.0 h_c_ + malcoa_c_ + 2.0 nadph_c_ --> co2_c_ + coa_c_ + ddcacoa_c_ + h2o_c_ + 2.0 nadp_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	pmeACP_c	meoh_c	-9.29092498975e-07	2.56557914764e-08	PMEACPE	h2o_c + pmeACP_c --> meoh_c + pimACP_c	-0.932961173781	-1.31393521275e-06
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	acon_DASH_T_c	acon_DASH_C_c	0.0	0.47512042378	ACONIs	acon_DASH_T_c --> acon_DASH_C_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	maltttr_c	glc_DASH_D_c	0.0	4.23751983114	AMALT2	malt_c + maltttr_c --> glc_DASH_D_c + maltpt_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	maltttr_c	glc_DASH_D_c	0.0	4.23751983114	MLTG2	h2o_c + maltttr_c --> glc_DASH_D_c + malttr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	gam6p_c	f6p_c	-0.0382300434313	1.88695844633	G6PDA	gam6p_c + h2o_c --> f6p_c + nh4_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	etha_c	acald_c	-0.00305408567037	0.140447724662	ETHAAL	etha_c --> acald_c + nh4_c	-0.461394445634	-0.00431912937569
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	etha_c	acald_c	-0.00305408567037	0.140447724662	NMO	etha_c_ + fmnh2_c_ + o2_c_ --> acald_c_ + fmn_c_ + no2_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	prbamp_c	prfp_c	-0.0351606248939	9.68418221348e-34	PRAMPC	h2o_c + prbamp_c --> prfp_c	-0.999306028056	-0.0497246325864
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	prbamp_c	prfp_c	-0.0351606248939	9.68418221348e-34	PRAMPC_1	h2o_c_ + h_c_ + prbamp_c_ --> prfp_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	mthgxl_c	g3p_c	0.0	3.09463819723	DKFPS2	fdp_c_ + mthgxl_c_ --> dkfp_c_ + g3p_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	g6p_c	f6p_c	-1.17709573842e-16	1.88695844633	PGI	g6p_c --> f6p_c	-0.116774841624	-1.66466475749e-16
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	g6p_c	glc_DASH_D_c	-1.17709573842e-16	4.23751983114	G6PP	g6p_c + h2o_c --> glc_DASH_D_c + pi_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	occoa_c	oc2coa_c	-0.0863335015909	0.13207966378	ACOAD3f	fad_c + occoa_c --> fadh2_c + oc2coa_c	0.40618119723	0.064694842995
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	occoa_c	oc2coa_c	-0.0863335015909	0.13207966378	ACOAD3	nad_c_ + occoa_c_ --> h_c_ + nadh_c_ + oc2coa_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	xylu_DASH_D_c	xu5p_DASH_D_c	0.0	1.33428111322	XYLK	atp_c + xylu_DASH_D_c --> adp_c + h_c + xu5p_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ala_DASH_L_c	ala_DASH_D_c	-0.242249780122	0.0136216244034	ALAR	ala_DASH_L_c --> ala_DASH_D_c	-5.49952802362e-17	-6.84775091338e-34
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ala_DASH_L_c	8aonn_c	-0.242249780122	1.55848740174e-07	AOXSr2	ala_DASH_L_c + pimACP_c --> 8aonn_c + ACP_c + co2_c	-0.932961173781	-1.31393521275e-06
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ala_DASH_L_c	glu_DASH_L_c	-0.242249780122	2.02521600919	ALATA_L	akg_c + ala_DASH_L_c --> glu_DASH_L_c + pyr_c	0.522232967867	0.152626487069
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	rib_DASH_D_c	r5p_c	0.0	1.43103376505	RBK	atp_c + rib_DASH_D_c --> adp_c + h_c + r5p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	4abut_c	glu_DASH_L_c	-0.0155062491228	2.02521600919	ABTA	4abut_c + akg_c --> glu_DASH_L_c + sucsal_c	-0.38771130549	-0.021929147811
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	4abut_c	glu_DASH_L_c	-0.0155062491228	2.02521600919	GLUABUTt7pp	4abut_c + glu_DASH_L_p --> 4abut_p + glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	4abut_c	gly_c	-0.0155062491228	0.479780182098	A4GA	4abut_c_ + glx_c_ --> gly_c_ + sucsal_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	dcamp_c	fum_c	0.0	0.329786142741	ADSL1r	dcamp_c --> amp_c + fum_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	2dh3dgal6p_c	g3p_c	0.0	3.09463819723	DDPGALA	2dh3dgal6p_c --> g3p_c + pyr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	cph4_c	flxso_c	0.0	0.00203277713516	CDGS1	amet_c_ + cph4_c_ + 2.0 flxr_c_ + 2.0 h_c_ --> cdg_c_ + dad_5_c_ + 2.0 flxso_c_ + met__L_c_ + nh4_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	sarcs_c	mlthf_c	0.0	0.479780182098	SARCOX2	o2_c_ + sarcs_c_ + thf_c_ --> gly_c_ + h2o2_c_ + mlthf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	sarcs_c	gly_c	0.0	0.479780182098	SARCOX	h2o_c + o2_c + sarcs_c --> fald_c + gly_c + h2o2_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	sarcs_c	gly_c	0.0	0.479780182098	SARCOX2	o2_c_ + sarcs_c_ + thf_c_ --> gly_c_ + h2o2_c_ + mlthf_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	4hthr_c	gly_c	0.0	0.479780182098	4HTHRA	4hthr_c_ --> gcald_c_ + gly_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	btcoa_c	b2coa_c	-0.0863335015909	0.13207966378	ACOAD1f	btcoa_c + fad_c --> b2coa_c + fadh2_c	0.40618119723	0.064694842995
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	btcoa_c	aacoa_c	-0.0863335015909	0.13207966378	FAO4	btcoa_c_ + fad_c_ + h2o_c_ + nad_c_ --> aacoa_c_ + fadh2_c_ + h_c_ + nadh_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	btcoa_c	aacoa_c	-0.0863335015909	0.13207966378	BUTCT2	acac_c_ + btcoa_c_ --> aacoa_c_ + but_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	LalaLglu_c	glu_DASH_L_c	-0.00158110119289	2.02521600919	LALGP	LalaLglu_c + h2o_c --> ala_DASH_L_c + glu_DASH_L_c	-0.519784136537	-0.00223601475047
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	glx_c	gly_c	-0.00783777784034	0.479780182098	GOR1	glx_c_ + 2.0 h_c_ + nadh_c_ + nh3_c_ --> gly_c_ + h2o_c_ + nad_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	glx_c	gly_c	-0.00783777784034	0.479780182098	A4GA	4abut_c_ + glx_c_ --> gly_c_ + sucsal_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	glx_c	gly_c	-0.00783777784034	0.479780182098	AGTi	ala__L_c_ + glx_c_ --> gly_c_ + pyr_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	glx_c	gly_c	-0.00783777784034	0.479780182098	GLYTA	glu__L_c_ + glx_c_ --> akg_c_ + gly_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	glx_c	gly_c	-0.00783777784034	0.479780182098	SPT_syn	glx_c_ + ser__L_c_ --> gly_c_ + hpyr_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	glx_c	mal_DASH_L_c	-0.00783777784034	0.17634113162	MALS	accoa_c + glx_c + h2o_c --> coa_c + h_c + mal_DASH_L_c	-0.725908042834	-0.00034274162412
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	mnl1p_c	f6p_c	0.0	1.88695844633	M1PD	mnl1p_c + nad_c --> f6p_c + h_c + nadh_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ptrc_c	glu_DASH_L_c	-0.0155062491228	2.02521600919	PTRCTA	akg_c + ptrc_c --> 4abutn_c + glu_DASH_L_c	-0.38771130549	-0.021929147811
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	anhm4p_c	ala_DASH_D_c	0.0	0.0136216244034	AM4PCP	anhm4p_c + h2o_c --> ala_DASH_D_c + anhm3p_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	succ_c	fum_c	-0.479085785294	0.329786142741	SUCDi	q8_c + succ_c --> fum_c + q8h2_c	-0.941968118868	-0.677529615103
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	succ_c	fum_c	-0.479085785294	0.329786142741	SUCFUMtpp	fum_p + succ_c --> fum_c + succ_p	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	succ_c	fum_c	-0.479085785294	0.329786142741	SUCD1	fad_c_ + succ_c_ --> fadh2_c_ + fum_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	succ_c	fum_c	-0.479085785294	0.329786142741	SUCD2	fad_c_ + 2.0 h_c_ + mqn7_c_ + succ_c_ --> fadh2_c_ + fum_c_ + mql7_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	succ_c	mal_DASH_L_c	-0.479085785294	0.17634113162	SUCMALtpp	mal_DASH_L_p + succ_c --> mal_DASH_L_c + succ_p	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	succ_c	asp_DASH_L_c	-0.479085785294	0.60243038285	SUCASPtpp	asp_DASH_L_p + succ_c --> asp_DASH_L_c + succ_p	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	3oocoa_c	3hocoa_c	-0.0457461621896	0.0704910088685	HACD3	3oocoa_c + h_c + nadh_c --> 3hocoa_c + nad_c	-0.40618119723	-0.064694842995
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	ABTA	4abut_c + akg_c --> glu_DASH_L_c + sucsal_c	-0.38771130549	-0.021929147811
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	ACOTA	acorn_c + akg_c --> acg5sa_c + glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	ALATA_L	akg_c + ala_DASH_L_c --> glu_DASH_L_c + pyr_c	0.522232967867	0.152626487069
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	ASPTA	akg_c + asp_DASH_L_c --> glu_DASH_L_c + oaa_c	0.228826976828	0.117553202253
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	GLUSy	akg_c + gln_DASH_L_c + h_c + nadph_c --> 2.0 glu_DASH_L_c + nadp_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	ILETA	akg_c + ile_DASH_L_c --> 3mop_c + glu_DASH_L_c	-0.461394445634	-0.018727163812
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	PHETA1	akg_c + phe_DASH_L_c --> glu_DASH_L_c + phpyr_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	PTRCTA	akg_c + ptrc_c --> 4abutn_c + glu_DASH_L_c	-0.38771130549	-0.021929147811
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	SDPTA	akg_c + sl26da_c --> glu_DASH_L_c + sl2a6o_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	SOTA	akg_c + sucorn_c --> glu_DASH_L_c + sucgsa_c	-0.0580258853186	-0.00199040780079
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	TYRTA	akg_c + tyr_DASH_L_c --> 34hpp_c + glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	VALTA	akg_c + val_DASH_L_c --> 3mob_c + glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	GLUDy_reverse	akg_c + h_c + nadph_c + nh4_c --> glu_DASH_L_c + h2o_c + nadp_c	-0.510968735266	-2.03782814973
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	OHPBAT_reverse	akg_c + phthr_c --> glu_DASH_L_c + ohpb_c	0.999306028056	0.000117044829601
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	glu_DASH_L_c	-1.04132594685	2.02521600919	UDPKAAT_reverse	akg_c + udpLa4n_c --> glu_DASH_L_c + udpLa4o_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	icit_c	-1.04132594685	0.883549557864	ICDHyr_reverse	akg_c + co2_c + nadph_c --> icit_c + nadp_c	0.701720065495	0.846502222863
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	akg_c	ohpb_c	-1.04132594685	8.27631927137e-05	OHPBAT_reverse	akg_c + phthr_c --> glu_DASH_L_c + ohpb_c	0.999306028056	0.000117044829601
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	akg_c	aspsa_c	-1.04132594685	0.369004624964	DABAAT	24dab_c_ + akg_c_ + 2.0 h_c_ --> aspsa_c_ + glu__L_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	akg_c	aspsa_c	-1.04132594685	0.369004624964	DABAAT2	24dab_c_ + akg_c_ + h_c_ --> aspsa_c_ + glu__L_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	anhgm4p_c	ala_DASH_D_c	-0.000947822586435	0.0136216244034	AGM4PCP	anhgm4p_c + h2o_c --> ala_DASH_D_c + anhgm3p_c	-0.453144162247	-0.00134042355646
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	u3aga_c	3hmrsACP_c	-0.0144416204254	0.0154150058283	UAGAAT_reverse	ACP_c + u3aga_c --> 3hmrsACP_c + uacgam_c	0.999306028056	0.0204235354683
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	glu_DASH_D_c	glu_DASH_L_c	-0.0118942115029	2.02521600919	GLUR	glu_DASH_D_c --> glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	13dpg_c	g3p_c	-3.20514521823	3.09463819723	GAPD_reverse	13dpg_c + h_c + nadh_c --> g3p_c + nad_c + pi_c	0.373286364417	1.65144272923
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	13dpg_c	g3p_c	-3.20514521823	3.09463819723	GAPDi_nadp	13dpg_c_ + h_c_ + nadph_c_ --> g3p_c_ + nadp_c_ + pi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	13dpg_c	g3p_c	-3.20514521823	3.09463819723	GAPDy	13dpg_c_ + nadph_c_ --> g3p_c_ + nadp_c_ + pi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fru_c	f6p_c	0.0	1.88695844633	HEX7	atp_c + fru_c --> adp_c + f6p_c + h_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	fru_c	f6p_c	0.0	1.88695844633	r0358	datp_c_ + fru_c_ --> dadp_c_ + f6p_c_ + h_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	fru_c	f6p_c	0.0	1.88695844633	r0357	fru_c_ + itp_c_ --> f6p_c_ + h_c_ + idp_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	fru_c	f6p_c	0.0	1.88695844633	HEX7_1	atp_c_ + fru_c_ --> adp_c_ + f6p_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fru_c	glc_DASH_D_c	0.0	4.23751983114	XYLI2_reverse	fru_c --> glc_DASH_D_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ahdt_c	acald_c	-0.000248289578142	0.140447724662	CPH4S	ahdt_c + h2o_c --> acald_c + cph4_c + h_c + pppi_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	ahdt_c	acald_c	-0.000248289578142	0.140447724662	6CTHYDPTNS	ahdt_c_ + h2o_c_ --> 6cthydptn_c_ + acald_c_ + h_c_ + pppi_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	hxcoa_c	hx2coa_c	-0.0863335015909	0.13207966378	ACOAD2f	fad_c + hxcoa_c --> fadh2_c + hx2coa_c	0.40618119723	0.064694842995
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	2mecdp_c	flxso_c	-0.000886642454677	0.00203277713516	MECDPDH5	2mecdp_c + 2.0 flxr_c + h_c --> 2.0 flxso_c + h2mb4p_c + h2o_c	-0.999306028056	-0.00125390178438
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	ethso3_c	acald_c	0.0	0.140447724662	FDMO3	ethso3_c + fmnh2_c + o2_c --> acald_c + fmn_c + h2o_c + h_c + so3_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	msa_c	acald_c	0.0	0.140447724662	MSADC	h_c_ + msa_c_ --> acald_c_ + co2_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	cit_c	acon_DASH_C_c	-0.301648255544	0.47512042378	ACONTa	cit_c --> acon_DASH_C_c + h2o_c	-0.41121553416	-0.426595054057
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	cit_c	icit_c	-0.301648255544	0.883549557864	ACONT	cit_c_ --> icit_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fdp_c	g3p_c	-0.032612721562	3.09463819723	FBA	fdp_c --> dhap_c + g3p_c	-5.49952802362e-17	-8.76512116912e-32
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Universal model	fdp_c	g3p_c	-0.032612721562	3.09463819723	DKFPS2	fdp_c_ + mthgxl_c_ --> dkfp_c_ + g3p_c_	NA	NA
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fdp_c	f6p_c	-0.032612721562	1.88695844633	FBP	fdp_c + h2o_c --> f6p_c + pi_c	-0.20143262004	-0.0564868907184
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	fdp_c	dhap_c	-0.032612721562	1.49099041395	FBA	fdp_c --> dhap_c + g3p_c	-5.49952802362e-17	-8.76512116912e-32
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	val_DASH_L_c	glu_DASH_L_c	-0.371135393336	2.02521600919	VALTA	akg_c + val_DASH_L_c --> 3mob_c + glu_DASH_L_c	nan	0.0
+EX_INDIRUBIN_LPAREN_e_RPAREN_	Native	hdd2coa_c	3hhdcoa_c	-0.0842595264857	0.103196422929	ECOAH7_reverse	h2o_c + hdd2coa_c --> 3hhdcoa_c	0.638307176902	0.0953944355432
