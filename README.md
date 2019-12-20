@@ -5,17 +5,13 @@
 
 1. Clone the repository
 
-        git clone https://anlito@bitbucket.org/anlito/ibridge.git
+        git clone https://anlito@bitbucket.org/kiwoju/ibridge.git
 
 2. Create and activate virtual environment
 
         virtualenv venv
         source venv/bin/activate
 
-    or you can use pre-built anaconda environemnt
-
-        conda env create -f environment.yml
-        conda activate engem_env
 
 3. Install gurobipy
 
@@ -26,7 +22,7 @@
 
 4. Change the directory
 
-        cd engem
+        cd ibridge
 
 5. Install packages
 
@@ -35,9 +31,3 @@
         pip install pip --upgrade
         pip install -r requirements.txt
 
-
-##Example
-
-- Run modeling code with retrieving relavant data
-
-        python MetScore.py
