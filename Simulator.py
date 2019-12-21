@@ -9,6 +9,8 @@ class Simulator(object):
     Simulator for flux balance analysis
     '''
 
+    
+    
     def __init__(self):
         '''
         Constructor

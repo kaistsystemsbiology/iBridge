@@ -1,0 +1,8 @@
+cobra==0.5.11
+numpy==1.14.1
+pandas==0.22.0
+python-dateutil==2.7.0
+pytz==2018.3
+scipy==1.0.0
+six==1.11.0
+python-libsbml==5.17.0
