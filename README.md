@@ -33,3 +33,8 @@
         pip install pip --upgrade
         pip install -r requirements.txt
 
+
+6. Or, install conda environment
+
+        conda env create -f environment.yml
+        conda activate ibridge
