@@ -252,12 +252,3 @@ class Simulator(object):
 
         return (model_metabolites, model_reactions, Smatrix, lower_boundary_constraints, upper_boundary_constraints,
                 objective_reaction)
-
-if __name__ == '__main__':
-    obj = Simulator()
-    obj.read_model('/data2/jupyter_work/jyryu3161/git_work_dir/reconmanagement/management/tests/data/Recon2M.2_Entrez_Gene.xml')
-    a,b,c = obj.run_FBA()
-    print c['biomass_reaction']
-    print len(obj.model_reactions)
-    print len(obj.model_metabolites)
-    print len(obj.model_genes)
