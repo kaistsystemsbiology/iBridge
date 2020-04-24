@@ -1,4 +1,4 @@
-#Copyright 2014-2016 BioInformatics Research Center, KAIST
+#Copyright BioInformatics Research Center, KAIST
 
 import copy
 import cobra.io as io
