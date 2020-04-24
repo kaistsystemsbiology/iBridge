@@ -7,7 +7,7 @@
 
 1. Clone the repository
 
-        git clone https://anlito@bitbucket.org/kiwoju/ibridge.git
+        git clone https://bitbucket.org/kaistsystemsbiology/ibridge.git
 
 2. Create and activate virtual environment
 
