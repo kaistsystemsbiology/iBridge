@@ -38,3 +38,25 @@
 
         conda env create -f environment.yml
         conda activate ibridge
+        
+        
+        
+##FSEOF, FVSEOF, OptForce simulation
+
+1. Create and activate virtual environment
+
+        conda env create -f environment2.yml
+        conda activate metool
+        
+2. Run FVSEOF
+
+        python ME_targeting.py -i ./input/ijo1366_IRR_indirubin.xml -o ./output/fvseof -t EX_INDIRUBIN_LPAREN_e_RPAREN_ -b Ec_biomass_iJO1366_core_53p95M -m fvseof
+        
+3. Run FSEOF
+
+        python ME_targeting.py -i ./input/ijo1366_IRR_indirubin.xml -o ./output/fvseof -t EX_INDIRUBIN_LPAREN_e_RPAREN_ -b Ec_biomass_iJO1366_core_53p95M -m fseof
+        
+
+4. Run OptForce
+
+        python OptForce.py
