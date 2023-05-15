@@ -41,7 +41,7 @@
         
         
         
-##FSEOF, FVSEOF, OptForce simulation
+# FSEOF, FVSEOF, OptForce simulation
 
 1. Create and activate virtual environment
 
