@@ -7,7 +7,7 @@
 
 1. Clone the repository
 
-        git clone https://bitbucket.org/kaistsystemsbiology/ibridge.git
+        git clone https://github.com/kaistsystemsbiology/iBridge.git
 
 2. Create and activate virtual environment
 
